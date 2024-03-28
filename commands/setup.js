@@ -158,7 +158,7 @@ async function createTicket(interaction, ticketChannel) {
     const ticketOwner = interaction.user;
      const confirmationEmbed = new EmbedBuilder()
         .setTitle('✅ Ticket Opened')
-            .setColor('#2bff00')
+            .setColor('#0E0099')
       .setDescription(` **Your ticket number is ${ticketNumber} ** \n\n-  Our team will assist you shortly. Please hang tight!\n- Feel free to mention Support team for any urgent assistance.`)
        .setImage('https://media.discordapp.net/attachments/1155419223523348500/1222914625234800792/standard_9.gif?ex=6617f2ff&is=66057dff&hm=9debf24dc0b77e9f28d3222402462d9a05f81a7e1e8477ef35f1c66a0196ad8f&=&width=803&height=452')
     .setFooter({ text: 'Your satisfaction is our priority! ', iconURl:'https://cdn.discordapp.com/attachments/1209503146485747723/1209503207685103677/8917-blurple-ticket.png?ex=65e728a4&is=65d4b3a4&hm=dc0e876211f155590f3d35e543f9d205acee0df356c7d13b07ad675051bc82bf&'})
