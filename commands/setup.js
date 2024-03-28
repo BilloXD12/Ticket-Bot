@@ -56,8 +56,8 @@ async function closeTicket(interaction, ticketChannel) {
     .setTitle('🔴 Ticket Closed')
         .setColor('#ff0000')
   .setDescription(`**Your ticket has been closed successfully.** \n\n- If you have any further questions, feel free to open a new ticket.`)
-        .setImage('https://images-ext-1.discordapp.net/external/bA0iAWPWg06QWItck9kmpEg0UnnadfbrUiO_iNBePRs/https/i.ytimg.com/vi/G2uGZ9Bt8JU/maxresdefault.jpg?format=webp&width=803&height=452')
-    .setFooter({ text: 'Thank You for Using Our Ticket Service!', iconURL:'https://media.discordapp.net/attachments/1155419223523348500/1222912838247649392/standard_8.gif?ex=6617f155&is=66057c55&hm=019162976495db94f68c8d137a5bea8f244ba1ebf20085b494ce615ef84cb9a0&=&width=550&height=309'})
+        .setImage('https://media.discordapp.net/attachments/1155419223523348500/1222912838247649392/standard_8.gif?ex=6617f155&is=66057c55&hm=019162976495db94f68c8d137a5bea8f244ba1ebf20085b494ce615ef84cb9a0&=&width=803&height=452')
+    .setFooter({ text: 'Thank You for Using Our Ticket Service!', iconURL:'https://cdn.discordapp.com/attachments/1209503146485747723/1209503206871400458/5620-ticket.png?ex=65e728a4&is=65d4b3a4&hm=93bae44d478db895734ef9dfe86325b453e905c64101a20161075b153b91490d&'})
      .setTimestamp();
 await ticketOwner.send({ embeds: [confirmationEmbed] });
 
@@ -160,8 +160,8 @@ async function createTicket(interaction, ticketChannel) {
         .setTitle('✅ Ticket Opened')
             .setColor('#2bff00')
       .setDescription(` **Your ticket number is ${ticketNumber} ** \n\n-  Our team will assist you shortly. Please hang tight!\n- Feel free to mention Support team for any urgent assistance.`)
-       .setImage('https://cdn.discordapp.com/attachments/1209503146485747723/1209507551683805204/1.png?ex=65e72caf&is=65d4b7af&hm=3eb4ab1565f7818bf94cdc37343be288cd7ae1792197374ee8d43a82d18cd526&')
-    .setFooter({ text: 'Your satisfaction is our priority! ', iconURl:'https://media.discordapp.net/attachments/1155419223523348500/1222914625234800792/standard_9.gif?ex=6617f2ff&is=66057dff&hm=9debf24dc0b77e9f28d3222402462d9a05f81a7e1e8477ef35f1c66a0196ad8f&=&width=803&height=452'})
+       .setImage('https://media.discordapp.net/attachments/1155419223523348500/1222914625234800792/standard_9.gif?ex=6617f2ff&is=66057dff&hm=9debf24dc0b77e9f28d3222402462d9a05f81a7e1e8477ef35f1c66a0196ad8f&=&width=803&height=452')
+    .setFooter({ text: 'Your satisfaction is our priority! ', iconURl:'https://cdn.discordapp.com/attachments/1209503146485747723/1209503207685103677/8917-blurple-ticket.png?ex=65e728a4&is=65d4b3a4&hm=dc0e876211f155590f3d35e543f9d205acee0df356c7d13b07ad675051bc82bf&'})
      .setTimestamp();
     await ticketOwner.send({ embeds: [confirmationEmbed] });
     
